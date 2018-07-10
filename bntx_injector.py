@@ -94,7 +94,7 @@ class MainWindow(QtWidgets.QWidget):
         self.setWindowIcon(QIcon('icon.ico'))
 
     def setupUi(self):
-        self.setWindowTitle("BNTX Injector v" + globals.Version)
+        self.setWindowTitle("BNTX Injector v%s - By AboodXD" % globals.Version)
         self.setMinimumSize(375, 0)
 
         Layout = QtWidgets.QGridLayout()
